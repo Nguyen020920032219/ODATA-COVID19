@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.OData;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
+using System.Reflection.Emit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,5 +33,9 @@ static IEdmModel GetEdmModel()
 {
     var builder = new ODataConventionModelBuilder();
     builder.EntitySet<VwCovidDataCombined>("CovidData");
+    builder.EntitySet<Confirmed>("Confirmed");
+    builder.EntitySet<Death>("Deaths");
+    builder.EntitySet<Recovered>("Recovered");
+    builder.EntitySet<DailyReport>("DailyReport");
     return builder.GetEdmModel();
 }

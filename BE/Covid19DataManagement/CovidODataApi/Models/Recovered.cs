@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CovidODataApi.Models;
+﻿namespace CovidODataApi.Models;
 
 public partial class Recovered
 {
