@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovidODataApi", "CovidODataApi\CovidODataApi.csproj", "{36B518ED-D89E-4D8D-8E23-E4CB78128A0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B518ED-D89E-4D8D-8E23-E4CB78128A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B518ED-D89E-4D8D-8E23-E4CB78128A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B518ED-D89E-4D8D-8E23-E4CB78128A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B518ED-D89E-4D8D-8E23-E4CB78128A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0451E9CB-71EB-4CCD-ACC9-B23CFADBCA9D}
+	EndGlobalSection
+EndGlobal
