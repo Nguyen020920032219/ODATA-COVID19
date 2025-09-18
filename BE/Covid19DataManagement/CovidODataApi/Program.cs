@@ -34,7 +34,7 @@ static IEdmModel GetEdmModel()
     var builder = new ODataConventionModelBuilder();
     builder.EntitySet<VwCovidDataCombined>("CovidData");
     builder.EntitySet<Confirmed>("Confirmed");
-    builder.EntitySet<Death>("Deaths");
+    builder.EntitySet<Death>("Death");
     builder.EntitySet<Recovered>("Recovered");
     builder.EntitySet<DailyReport>("DailyReport");
     return builder.GetEdmModel();
